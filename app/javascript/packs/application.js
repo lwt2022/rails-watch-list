@@ -9,7 +9,7 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
 // imported sat 9th july
-import "bootstrap";
+import "bootstrap"
 
 Rails.start()
 Turbolinks.start()
