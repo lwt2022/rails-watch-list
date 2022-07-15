@@ -1,0 +1,7 @@
+<%= @list %>
+<%= @bookmark %>
+<%= simple_form_for([@list,@bookmark]) do |f| %>
+  <%= f.input :comment %>
+  <%= f.input :movie, as: :select, collection: @movies %>
+  <%= f.submit %>
+<% end %>
